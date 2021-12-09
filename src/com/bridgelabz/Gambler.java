@@ -34,10 +34,10 @@ public class Gambler {
             int result = startGambling();
             amount_After_20Days += result;
             if (result == 50) {
-                System.out.println("Lost 50$ in day " + i);
+                System.out.println(" Unlucky day Lost 50$ in day " + i);
             }
             if (result == 150) {
-                System.out.println("Won 50$ in day " + i);
+                System.out.println("Lucky day Won 50$ in day " + i);
             }
         }
         System.out.println("Amount after 20 day is " + amount_After_20Days);
